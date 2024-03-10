@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+  }
+  body{
+    
+    background-color:  #f8f8fa;;
+    
+  }
+  header{
+    color: white;
+    padding: 20px;
+    background-color: blue;
+  }
+nav{
+display: flex;
+font-size: small;
+justify-content: end;
+  }
+
+  .nav-item{
+    margin: 1rem ;
+    font-weight: 400;
+  }
+
+
+  .nav-item-active{
+    height:20px;
+    color: blue;
+    margin-top:10px;
+    padding:3px 5px 0px 5px;
+    border-radius: 2px;
+    background-color: #f9f8f9;
+  
+  }
+
+
+  div .logo{
+    height:50px;
+    padding-bottom: 50px;
+    display:inline-block;
+  }
+
+.logo,.header-text{
+    padding-left: 30px;
+}
+  .header-text{
+    font-size: 25px;
+    height: 250px;
+  
+  }
+  .header-text p{
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  .header-image{
+height:450px;
+position: absolute;
+top: 100px;
+left:49rem;
+
+
+
+  }
+  .companies{
+font-size: 25px;
+padding: 30px;
+  }
+
+  .company-items{
+    margin-left:50px;
+    color: black;
+    text-decoration: none;
+  }
+
+
+  .api h1{
+    padding-left:40px ;
+    font-weight: 900;
+    margin-top:40px;
+  }
+  .cards{
+    display: flex;
+    font-weight: 600;
+    padding-left: 40px;
+    margin: 25px;
+  }
+  .card{
+margin-left: 25px;
+  }
+  .card-logo{
+    margin: 15px 0px;
+  }
+  .card-head{
+    color: rgb(63, 63, 63);
+  }
+  .card-body{
+    font-size:13px;
+    color: rgb(92, 91, 91);
+    padding: 10px 0 20px 0;
+  }
+  
+  .card-active{
+background-color:  #FFFFFF;
+padding:20px 20px;
+border-radius:10px;
+box-shadow:0 0 10px 6px rgba(0,0,0,.04);
+color: rgb(87, 15, 242);
+   
+  }
+ 
+
+.blog-heading {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .blog-heading h1 {
+  font-size: 2.8rem;
+  padding-left:40px;
+ }
+ .blog-cards {
+
+  display: flex;
+  margin-bottom: 39px ;
+  flex-wrap: wrap;
+ }
+ .blog-card {
+  background-color: #FFFFFF;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  box-shadow: 0 0 10px 6px rgba(0,0,0,.04);
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 288px;
+ }
+ .blog-image {
+  display: inline-block;
+ }
+ .blog-image img {
+  display: inline-block;
+ }
+ .blog-content {
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 90px 0px 50px;
+ }
+ .blog-content h6 {
+    color: #4617fe;
+    font-weight: 900;
+ }
+ .blog-content h3 {
+  padding-top: 15px;
+  font-weight: 900;
+  margin-bottom: 15px;
+ }
+ .blog-content small {
+  font-weight: bold;
+}
+.blog-bottom {
+  position: absolute;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  left: 320px;
+  bottom: -20px;
+}
+
+ div.blog-author {
+  position: absolute;
+  bottom: -20px;
+  left: 390px;
+  bottom: 12px;
+  font-size: 12px;
+  font-weight: 900;
+ }
+
+.faq-section{
+  display: flex;
+  background-color: rgb(210, 207, 207);
+}
+.faq-content{
+ padding:0rem 4rem;
+}
+.faq-content h2{
+  font-size: 40px;
+}
+.faq-content :nth-child(2){
+  font-size: 13px;
+  padding: 10px 0px;
+}
+.faq-content :nth-child(3){
+  padding: 20px 0px;
+  font-size: 18px;
+}
+.faq-image{
+  margin-left:10rem;
+  
+}
+button{
+   
+    font-size: 1rem;
+    /* margin-top: 0.5rem; */
+    padding: 10px;
+    border-radius:5px;
+    color: #f8f8fa;
+    background-color: blue;
+    border:none;
+}
+.download-section{
+  height:280px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding:0px 50px;
+  justify-content: space-between;
+}
+.download-email{
+  background-color: #dddde0;
+  border-radius: 27px;
+  height: 45px;
+  
+  padding:3px 4px 4px 20px ;
+  
+}
+.download-email form input{
+   border: none;
+  padding-right: 10rem;
+  background-color: #dddde0;
+
+}
+
+.download-email form button{
+
+  padding: 13px 30px;
+  border-radius: 20px;
+  margin:1px ;
+  background-color:blue;
+
+}
+.footer-section{
+display: flex;
+height:150px;
+padding: 40px;
+justify-content: space-between;
+  background-color: blue;
+}
+.footer-rights{
+  display: flex;
+  margin: 40px;
+  flex-direction: column;
+}
+.footer-left{
+  margin: 40px;
+}
+.footer-right{
+display: flex;
+height: 50px;
+}
+.footer-logos{
+  margin: 9px;
+}
+.logos-list,.list{
+  display: flex;
+  margin: 20px;
+  font-size: 15px;
+  color: #f8f8fa;
+  list-style: none;
+}
+.list-items{
+  margin-right: 10px;
+}
